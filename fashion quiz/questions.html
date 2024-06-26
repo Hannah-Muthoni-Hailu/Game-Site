@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="../images/sitelogo.jfif">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz-page">
+            <h1 id="qnodisplay"></h1>
+            <button onclick="startQuiz()" id="startquiz" style="display: none;">Question</button>
+        </div>
+
+        <div id="quizNumberPage" class="quiz-page">
+            <h1>Quiz Number</h1>
+            <h3 id="quiz-number"></h3>
+            <script>
+                if(localStorage.getItem('currentquestions') == null){
+                    document.getElementById("quiz-number").textContent = '1';
+                }
+                else{
+                    document.getElementById("quiz-number").textContent = localStorage.getItem('currentquestions');
+                }
+            </script>
+        </div>
+        
+        <div id="quizPage" class="quiz-page" style="display: none;">
+            <h1 id="questionNumber"></h1>
+            <h2 id="question"></h2>
+            <div id="options"></div>
+            <div>
+                <button id="prevBtn" onclick="prevQuestion()">Previous</button>
+                <button id="nextBtn" onclick="nextQuestion()">Next</button>
+            </div>
+        </div>
+        <div id="resultPage" class="quiz-page" style="display: none;">
+            <h1>Quiz Results</h1>
+            <div id="results"></div>
+            <button onclick="restart()">Restart</button>
+            <a href="index.html" style="display: none;" id="restartbutton"></a>
+            <button onclick="goHome()">Go home</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

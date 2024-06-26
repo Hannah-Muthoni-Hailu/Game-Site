@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fashion.webp');
+    color: rgb(7, 7, 7);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-page {
+    text-align: center;
+}
+
+button {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0D47A1;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+#options {
+    display: inline-block;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
