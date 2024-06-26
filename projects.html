@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+        
+    <!-- Viewport for Responsive Web Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="I am  web and software developer.">
+    <meta name="keywords" content="Web Developer, Web Design, Build my website, website builder, how to build a website, Software developer">
+    <meta name="author" content="Hannah Hailu">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" style="border-radius: 15px;">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />     -->
+    <title>Hannah Muthoni</title>
+</head>
+<body>
+    <nav>
+        <ul id="navbar">
+            <li style="float:left" id="nav-title">
+                <img src="images/me.png" alt="An image of Hannah Hailu" id="nav-img">
+                <a href="#home">
+                    Hannah Hailu
+                </a>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="active" href="projects.html">Projects</a></li>    
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <input type="text" id="search-input" placeholder="Search for skills..." onkeyup="searchSkills()">
+    <div id="no-results-message" style="display: none;">
+        It seems that I don't have those skills right now. But come back later as I am always upskilling and adding new projects.
+    </div>
+    <div class="portfolio-container" id="portfolio-container">
+        <div class="project-card" data-skills="HTML, JavaScript, CSS, BootStrap" onclick="redirectToProject('RadiaDerm-Website-main/index.html')">
+            <img src="images/Radiaderm.PNG" alt="Project 2">
+            <div class="project-info">
+                <h3>RadiaDerm Website</h3>
+                <p style="text-align: left; margin-left: 10px;">Skills in this project:</p>
+                <ul class="skills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>BootStrap</li>
+                </ul>
+            </div>
+        </div>
+        <div class="project-card" data-skills="HTML, JavaScript, CSS, BootStrap" onclick="redirectToProject('Limuru-Cheshire-Home-Website-main/index.html')">
+            <img src="images/Limuru.PNG" alt="Project 2">
+            <div class="project-info">
+                <h3>Limuru Cheshire Home Website</h3>
+                <p style="text-align: left; margin-left: 10px;">Skills in this project:</p>
+                <ul class="skills">
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                    <li>CSS</li>
+                    <li>BootStrap</li>
+                </ul>
+            </div>
+        </div>
+        <div class="project-card" data-skills="HTML, JavaScript, CSS, BootStrap, PHP, phpMyAdmin" onclick="redirectToProject('Game Site/index.php')">
+            <img src="images/GameSite.PNG" alt="Project 2">
+            <div class="project-info">
+                <h3>GameSite</h3>
+                <p style="text-align: left; margin-left: 10px;">Skills in this project:</p>
+                <ul class="skills">
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                    <li>CSS</li>
+                    <li>BootStrap</li>
+                    <li>PHP</li>
+                    <li>phpMyAdmin</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <hr class="divider">
+        <div class="text-center" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a class="text-body" href="index.html">HannahMuthoniHailu</a>
+          </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
