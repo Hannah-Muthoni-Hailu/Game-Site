@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: url('wp5223427-desktop-gamings-wallpapers.jpg') no-repeat center center fixed;
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  flex-direction: column;
+  color: rgb(250, 250, 252);
+}
+
+.title {
+  margin: 0;
+}
+
+.subtext {
+  color: #CCC;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.board {
+  display: inline-grid;
+  padding: 10px;
+  grid-template-columns: repeat(var(--size), 60px);
+  grid-template-rows: repeat(var(--size), 60px);
+  gap: 4px;
+  background-color: #1973c7;
+  margin-bottom: 50px;
+}
+
+.board > * {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid #BBB;
+  user-select: none;
+}
+
+.board > [data-status="hidden"] {
+  background-color: #BBB;
+  cursor: pointer;
+}
+
+.board > [data-status="mine"] {
+  background-color: red;
+}
+
+.board > [data-status="number"] {
+  background-color: none;
+}
+
+.board > [data-status="marked"] {
+  background-color: yellow;
+}* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: url('wp5223427-desktop-gamings-wallpapers.jpg') no-repeat center center fixed;
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  flex-direction: column;
+  color: rgb(250, 250, 252);
+}
+
+.title {
+  margin: 0;
+}
+
+.subtext {
+  color: #CCC;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.board {
+  display: inline-grid;
+  padding: 10px;
+  grid-template-columns: repeat(var(--size), 60px);
+  grid-template-rows: repeat(var(--size), 60px);
+  gap: 4px;
+  background-color: #1973c7;
+  margin-bottom: 50px;
+}
+
+.board > * {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid #BBB;
+  user-select: none;
+}
+
+.board > [data-status="hidden"] {
+  background-color: #BBB;
+  cursor: pointer;
+}
+
+.board > [data-status="mine"] {
+  background-color: red;
+}
+
+.board > [data-status="number"] {
+  background-color: none;
+}
+
+.board > [data-status="marked"] {
+  background-color: yellow;
+}* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: url('wp5223427-desktop-gamings-wallpapers.jpg') no-repeat center center fixed;
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  flex-direction: column;
+  color: rgb(250, 250, 252);
+}
+
+.title {
+  margin: 0;
+}
+
+.subtext {
+  color: #CCC;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.board {
+  display: inline-grid;
+  padding: 10px;
+  grid-template-columns: repeat(var(--size), 60px);
+  grid-template-rows: repeat(var(--size), 60px);
+  gap: 4px;
+  background-color: #1973c7;
+  margin-bottom: 50px;
+}
+
+.board > * {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid #BBB;
+  user-select: none;
+}
+
+.board > [data-status="hidden"] {
+  background-color: #BBB;
+  cursor: pointer;
+}
+
+.board > [data-status="mine"] {
+  background-color: red;
+}
+
+.board > [data-status="number"] {
+  background-color: none;
+}
+
+.board > [data-status="marked"] {
+  background-color: yellow;
+}
